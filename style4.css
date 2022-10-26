@@ -1,54 +1,49 @@
 body {
   margin: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
-  display: flex;
   width: 100vw;
   height: 100vh;
 }
 
-nav {
-  background-color: #c22177;
-  color: white;
-  flex-basis: 50vw;
-}
-
 header {
-  display: flex;
   background-color: black;
   color: white;
   height: 20vh;
-  flex-basis: 20v;
   width: 100%;
+  margin-top: -5vh;
+  line-height: 10vh;
 }
 
 footer {
-  display: flex;
   background-color: black;
   color: white;
   height: 20vh;
   width: 100%;
+  margin-top: -5vh;
   line-height: 10vh;
 }
 
 main {
   display: flex;
   flex-direction: row;
-  height: 60vh;
-  width: 80vw;
+  min-height: calc(100vh - 20vh);
+}
+
+nav {
+  background-color: #c22177;
+  color: white;
+  flex-grow: 1;
 }
 
 article {
   background-color: white;
-  flex-grow: 0;
-  min-height: calc(100vh - 40vh);
+  flex-grow: 3;
 }
 
 aside {
   background-color: #320388;
   color: white;
-  width: calc(100vw - 80vw);
-  height: calc(100vh - 20vh);
-  margin-left: 60vw;
+  flex-grow: 1;
 }
 
 h3 {
