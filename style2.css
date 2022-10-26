@@ -45,7 +45,7 @@ article {
 aside {
   background-color: #320388;
   color: white;
-  flex-grow: 2;
+  flex-grow: 1;
   min-height: calc(100vh - 40vh);
 }
 
