@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 20vh;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 20vh;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  min-height: calc(100vh - 40vh);
+}
+
+nav {
+  background-color: #c22177;
+  color: white;
+  flex-grow: 1;
+}
+
+article {
+  background-color: white;
+  flex-grow: 3;
+}
+
+aside {
+  background-color: #320388;
+  color: white;
+  flex-grow: 1;
+}
+
+h3 {
+  padding-left: 1vw;
+}
