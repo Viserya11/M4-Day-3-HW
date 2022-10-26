@@ -7,11 +7,9 @@ body {
 }
 
 nav {
-  flex-basis: 20vw;
   background-color: #c22177;
   color: white;
-  flex-shrink: 1;
-  flex-grow: 1;
+  flex-basis: 20vw;
 }
 
 header {
@@ -34,6 +32,8 @@ footer {
 main {
   display: flex;
   flex-direction: row;
+  height: 60vh;
+  width: 80vw;
 }
 
 article {
